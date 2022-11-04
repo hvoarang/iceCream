@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ice cream</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;900&family=Roboto:wght@700&family=Seymour+One&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="../node_modules/modern-normalize/modern-normalize.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Roboto:wght@700&family=Seymour+One&family=Titan+One&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="../node_modules/modern-normalize/modern-normalize.css"
+    />
+    <link rel="stylesheet" href="./sass/index.scss" />
+    <link rel="stylesheet" href="./utils/variables.scss" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <!--//================= cursor =================//-->
+    <style>
+      body,
+      a,
+      button {
+        cursor: url(./images/png/cursor.png), default;
+      }
+    </style>
+
+    <!--//==== ❗️❗️❗️ include part parcel ❗️❗️❗️ ====//-->
+    <include src="./partials/_header.html"></include>
+    <include src="./partials/_products.html"></include>
+    <include src="./partials/_slider.html"></include>
+    <include src="./partials/_footer.html"></include>
+    <include src="./partials/_how-its-made.html"></include>
+    <include src="./partials/_modal.html"></include>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!--//================= script =================//-->
+    <script>
+      AOS.init();
+    </script>
+    <script type="module" src="./js/menu.js"></script>
+    <script type="module" src="./js/modal-footer-loc.js"></script>
+    <script type="module" src="./js/modal-footer-read.js"></script>
+    <script type="module" src="./js/modal-products.js"></script>
+    <script type="module" src="./js/modal.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <!--//================= button "buy now" =================//-->
+    <script>
+      function myFunction() {
+        alert('SORRRYYYYY! This modal is in progress! =)');
+      }
+    </script>
+    <script>
+      var swiper = new Swiper('.mySwiper', {
+        pagination: {
+          el: '.swiper-pagination',
+        },
+      });
+      var swiper = new Swiper('.mySwiper', {});
+    </script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!--//============== / / / ==============//-->
+  </body>
+</html>
